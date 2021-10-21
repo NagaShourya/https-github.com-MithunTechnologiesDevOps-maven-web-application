@@ -24,8 +24,8 @@
 		<sonar.organization>sandeepgit0218</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		<!--<sonar.login>bd351310260cd34dd108d7463263e6ce44caf667</sonar.login>-->
-		<sonar.login>admin</sonar.login>
-		<sonar.password>admin</sonar.password> 
+		<sonar.loginSONAR_TOKEN></sonar.login>
+		<sonar.password>bd351310260cd34dd108d7463263e6ce44caf667</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
