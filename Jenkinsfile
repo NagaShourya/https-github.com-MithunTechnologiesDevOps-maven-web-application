@@ -1,4 +1,8 @@
+
+node('node1')
+
 node
+
 {
 
   def mavenHome=tool name: "maven3.6.3"
@@ -8,6 +12,10 @@ node
  	git branch: 'development', credentialsId: 'bed5a851-d84d-412e-87e7-bf9ce23c0e0e', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git'
  
  }
+
+ 
+
+
  /*
  stage('Build')
  {
@@ -39,4 +47,5 @@ node
  Mithun Technologies,
  9980923226.''', subject: 'Build is over', to: 'devopstrainingblr@gmail.com'
  }
+
 }
